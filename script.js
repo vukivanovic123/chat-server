@@ -1,5 +1,5 @@
 
-const socket = io("https://bcdb2194c80c.ngrok-free.app");
+const socket = io("https://50f683bde41f.ngrok-free.app");
 
 const form = document.getElementById('form');
 const input = document.getElementById('input');
@@ -19,6 +19,7 @@ li.textContent = msg;
 messages.appendChild(li);
 messages.scrollTop = messages.scrollHeight;
 });
+
 
 
 
