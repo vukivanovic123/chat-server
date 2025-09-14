@@ -1,5 +1,6 @@
-
-const socket = io("https://9fbb49263943.ngrok-free.app");
+const socket = io("https://0e808be05062.grok-free.app", {
+transports: ['websocket'] // force WebSocket to avoid CSP / eval issues
+});
 
 const form = document.getElementById('form');
 const input = document.getElementById('input');
@@ -19,12 +20,6 @@ li.textContent = msg;
 messages.appendChild(li);
 messages.scrollTop = messages.scrollHeight;
 });
-
-
-
-
-
-
 
 
 
