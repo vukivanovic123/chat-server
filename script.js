@@ -1,5 +1,5 @@
 
-const socket = io("192.168.0.26:3000");
+const socket = io("192.168.0.26/24:3000");
 
 const form = document.getElementById('form');
 const input = document.getElementById('input');
@@ -19,3 +19,4 @@ li.textContent = msg;
 messages.appendChild(li);
 messages.scrollTop = messages.scrollHeight;
 });
+
