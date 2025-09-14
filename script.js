@@ -1,4 +1,4 @@
-const socket = io("https://0e808be05062.grok-free.app", {
+const socket = io("https://0e808be05062.ngrok-free.app", {
 transports: ['websocket'] // force WebSocket to avoid CSP / eval issues
 });
 
@@ -20,6 +20,7 @@ li.textContent = msg;
 messages.appendChild(li);
 messages.scrollTop = messages.scrollHeight;
 });
+
 
 
 
