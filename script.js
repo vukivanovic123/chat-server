@@ -1,5 +1,5 @@
 
-const socket = io("http://192.168.0.26:3000");
+const socket = io("https://74039d3cc070.ngrok-free.app");
 
 const form = document.getElementById('form');
 const input = document.getElementById('input');
@@ -19,6 +19,7 @@ li.textContent = msg;
 messages.appendChild(li);
 messages.scrollTop = messages.scrollHeight;
 });
+
 
 
 
